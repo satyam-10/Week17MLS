@@ -13,6 +13,7 @@ jobs:
       uses: Azure/mlops-templates/.github/workflows/read-yaml.yml@main
       with:
         file_name: config-infra-prod.yml
+        
 
   create-compute:
       needs: get-config
